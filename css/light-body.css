@@ -1,0 +1,73 @@
+
+*{
+  box-sizing: border-box;
+}
+html{
+  height: 100%;
+}
+body{
+  background-color: #010014;
+  background: radial-gradient(#010050, #010014);
+  /* z-index: 1; */
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+header h1{
+    color: #FFFFFF;
+    background-color: #F50AFE;
+    text-align: center;
+}
+.dbclick{
+    /* height: 70px; */
+    width: 9%;
+    background-color: blue;
+    margin-top: 13%;
+    color: #FFFFFF;
+    border-radius: 10%;
+    padding: 5px;
+    cursor: pointer;
+  }
+  #dbclickid{
+    display: none;
+  }
+  nav{
+    background-color: blue;
+    text-align:  center;
+  }
+  nav a{
+      text-decoration: none;
+      margin-right: 7%;
+      padding: 15px;
+      background-color: brown;
+      border-radius: 50%;
+      color: white;
+      background-image: linear-gradient(to bottom right, #03FDE1, #F50AFE);
+  }
+  #showAboutme{
+    background-color:deeppink;
+    width: 28%;
+    color: #FFFFFF;
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+    display: none;
+  }
+  /* #showAboutme div{
+
+  } */
+  #aboutme{
+      text-align: center;
+  }
+ 
+/* #myVideo{
+  position: absolute;
+  z-index: 999;
+} */
+/* canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+ 

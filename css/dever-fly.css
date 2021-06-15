@@ -1,0 +1,1954 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lanternHills {
+  position: absolute;
+  bottom: 0;
+  width: 500px;
+  left: 0px;
+}
+
+.lanternX1 {
+  position: absolute;
+  bottom: 0px;
+  left: 833px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX1;
+          animation-name: lanternX1;
+  -webkit-animation-duration: 9s;
+          animation-duration: 9s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY1 {
+  display: inline block;
+  width: 52px;
+  z-index: 52000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@-webkit-keyframes lanternX1 {
+  50% {
+    -webkit-transform: translateX(23px);
+            transform: translateX(23px);
+  }
+}
+
+@keyframes lanternX1 {
+  50% {
+    -webkit-transform: translateX(23px);
+            transform: translateX(23px);
+  }
+}
+
+@-webkit-keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX2 {
+  position: absolute;
+  bottom: 0px;
+  left: 141px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX2;
+          animation-name: lanternX2;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY2 {
+  display: inline block;
+  width: 74px;
+  z-index: 74000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+@-webkit-keyframes lanternX2 {
+  50% {
+    -webkit-transform: translateX(52px);
+            transform: translateX(52px);
+  }
+}
+
+@keyframes lanternX2 {
+  50% {
+    -webkit-transform: translateX(52px);
+            transform: translateX(52px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX3 {
+  position: absolute;
+  bottom: 0px;
+  left: 139px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX3;
+          animation-name: lanternX3;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY3 {
+  display: inline block;
+  width: 77px;
+  z-index: 77000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+@-webkit-keyframes lanternX3 {
+  50% {
+    -webkit-transform: translateX(59px);
+            transform: translateX(59px);
+  }
+}
+
+@keyframes lanternX3 {
+  50% {
+    -webkit-transform: translateX(59px);
+            transform: translateX(59px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX4 {
+  position: absolute;
+  bottom: 0px;
+  left: 120px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX4;
+          animation-name: lanternX4;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY4 {
+  display: inline block;
+  width: 58px;
+  z-index: 58000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+@-webkit-keyframes lanternX4 {
+  50% {
+    -webkit-transform: translateX(69px);
+            transform: translateX(69px);
+  }
+}
+
+@keyframes lanternX4 {
+  50% {
+    -webkit-transform: translateX(69px);
+            transform: translateX(69px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX5 {
+  position: absolute;
+  bottom: 0px;
+  left: 204px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX5;
+          animation-name: lanternX5;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY5 {
+  display: inline block;
+  width: 76px;
+  z-index: 76000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+@-webkit-keyframes lanternX5 {
+  50% {
+    -webkit-transform: translateX(75px);
+            transform: translateX(75px);
+  }
+}
+
+@keyframes lanternX5 {
+  50% {
+    -webkit-transform: translateX(75px);
+            transform: translateX(75px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX6 {
+  position: absolute;
+  bottom: 0px;
+  left: 512px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX6;
+          animation-name: lanternX6;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY6 {
+  display: inline block;
+  width: 80px;
+  z-index: 80000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+@-webkit-keyframes lanternX6 {
+  50% {
+    -webkit-transform: translateX(9px);
+            transform: translateX(9px);
+  }
+}
+
+@keyframes lanternX6 {
+  50% {
+    -webkit-transform: translateX(9px);
+            transform: translateX(9px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX7 {
+  position: absolute;
+  bottom: 0px;
+  left: 144px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX7;
+          animation-name: lanternX7;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY7 {
+  display: inline block;
+  width: 62px;
+  z-index: 62000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@-webkit-keyframes lanternX7 {
+  50% {
+    -webkit-transform: translateX(69px);
+            transform: translateX(69px);
+  }
+}
+
+@keyframes lanternX7 {
+  50% {
+    -webkit-transform: translateX(69px);
+            transform: translateX(69px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX8 {
+  position: absolute;
+  bottom: 0px;
+  left: 423px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX8;
+          animation-name: lanternX8;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY8 {
+  display: inline block;
+  width: 40px;
+  z-index: 40000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@-webkit-keyframes lanternX8 {
+  50% {
+    -webkit-transform: translateX(12px);
+            transform: translateX(12px);
+  }
+}
+
+@keyframes lanternX8 {
+  50% {
+    -webkit-transform: translateX(12px);
+            transform: translateX(12px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX9 {
+  position: absolute;
+  bottom: 0px;
+  left: 296px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX9;
+          animation-name: lanternX9;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY9 {
+  display: inline block;
+  width: 60px;
+  z-index: 60000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+@-webkit-keyframes lanternX9 {
+  50% {
+    -webkit-transform: translateX(46px);
+            transform: translateX(46px);
+  }
+}
+
+@keyframes lanternX9 {
+  50% {
+    -webkit-transform: translateX(46px);
+            transform: translateX(46px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX10 {
+  position: absolute;
+  bottom: 0px;
+  left: 815px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX10;
+          animation-name: lanternX10;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY10 {
+  display: inline block;
+  width: 57px;
+  z-index: 57000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@-webkit-keyframes lanternX10 {
+  50% {
+    -webkit-transform: translateX(34px);
+            transform: translateX(34px);
+  }
+}
+
+@keyframes lanternX10 {
+  50% {
+    -webkit-transform: translateX(34px);
+            transform: translateX(34px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX11 {
+  position: absolute;
+  bottom: 0px;
+  left: 735px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX11;
+          animation-name: lanternX11;
+  -webkit-animation-duration: 9s;
+          animation-duration: 9s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY11 {
+  display: inline block;
+  width: 46px;
+  z-index: 46000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@-webkit-keyframes lanternX11 {
+  50% {
+    -webkit-transform: translateX(18px);
+            transform: translateX(18px);
+  }
+}
+
+@keyframes lanternX11 {
+  50% {
+    -webkit-transform: translateX(18px);
+            transform: translateX(18px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX12 {
+  position: absolute;
+  bottom: 0px;
+  left: 329px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX12;
+          animation-name: lanternX12;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY12 {
+  display: inline block;
+  width: 31px;
+  z-index: 31000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+@-webkit-keyframes lanternX12 {
+  50% {
+    -webkit-transform: translateX(61px);
+            transform: translateX(61px);
+  }
+}
+
+@keyframes lanternX12 {
+  50% {
+    -webkit-transform: translateX(61px);
+            transform: translateX(61px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX13 {
+  position: absolute;
+  bottom: 0px;
+  left: 263px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX13;
+          animation-name: lanternX13;
+  -webkit-animation-duration: 9s;
+          animation-duration: 9s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY13 {
+  display: inline block;
+  width: 65px;
+  z-index: 65000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@-webkit-keyframes lanternX13 {
+  50% {
+    -webkit-transform: translateX(28px);
+            transform: translateX(28px);
+  }
+}
+
+@keyframes lanternX13 {
+  50% {
+    -webkit-transform: translateX(28px);
+            transform: translateX(28px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX14 {
+  position: absolute;
+  bottom: 0px;
+  left: 597px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX14;
+          animation-name: lanternX14;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY14 {
+  display: inline block;
+  width: 58px;
+  z-index: 58000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+@-webkit-keyframes lanternX14 {
+  50% {
+    -webkit-transform: translateX(67px);
+            transform: translateX(67px);
+  }
+}
+
+@keyframes lanternX14 {
+  50% {
+    -webkit-transform: translateX(67px);
+            transform: translateX(67px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX15 {
+  position: absolute;
+  bottom: 0px;
+  left: 868px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX15;
+          animation-name: lanternX15;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY15 {
+  display: inline block;
+  width: 36px;
+  z-index: 36000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+@-webkit-keyframes lanternX15 {
+  50% {
+    -webkit-transform: translateX(15px);
+            transform: translateX(15px);
+  }
+}
+
+@keyframes lanternX15 {
+  50% {
+    -webkit-transform: translateX(15px);
+            transform: translateX(15px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX16 {
+  position: absolute;
+  bottom: 0px;
+  left: 120px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX16;
+          animation-name: lanternX16;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY16 {
+  display: inline block;
+  width: 41px;
+  z-index: 41000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+@-webkit-keyframes lanternX16 {
+  50% {
+    -webkit-transform: translateX(35px);
+            transform: translateX(35px);
+  }
+}
+
+@keyframes lanternX16 {
+  50% {
+    -webkit-transform: translateX(35px);
+            transform: translateX(35px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX17 {
+  position: absolute;
+  bottom: 0px;
+  left: 298px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX17;
+          animation-name: lanternX17;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY17 {
+  display: inline block;
+  width: 60px;
+  z-index: 60000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+@-webkit-keyframes lanternX17 {
+  50% {
+    -webkit-transform: translateX(61px);
+            transform: translateX(61px);
+  }
+}
+
+@keyframes lanternX17 {
+  50% {
+    -webkit-transform: translateX(61px);
+            transform: translateX(61px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX18 {
+  position: absolute;
+  bottom: 0px;
+  left: 659px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX18;
+          animation-name: lanternX18;
+  -webkit-animation-duration: 9s;
+          animation-duration: 9s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY18 {
+  display: inline block;
+  width: 44px;
+  z-index: 44000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+@-webkit-keyframes lanternX18 {
+  50% {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+  }
+}
+
+@keyframes lanternX18 {
+  50% {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX19 {
+  position: absolute;
+  bottom: 0px;
+  left: 507px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX19;
+          animation-name: lanternX19;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY19 {
+  display: inline block;
+  width: 36px;
+  z-index: 36000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+@-webkit-keyframes lanternX19 {
+  50% {
+    -webkit-transform: translateX(34px);
+            transform: translateX(34px);
+  }
+}
+
+@keyframes lanternX19 {
+  50% {
+    -webkit-transform: translateX(34px);
+            transform: translateX(34px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX20 {
+  position: absolute;
+  bottom: 0px;
+  left: 15px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX20;
+          animation-name: lanternX20;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY20 {
+  display: inline block;
+  width: 53px;
+  z-index: 53000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+@-webkit-keyframes lanternX20 {
+  50% {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+}
+
+@keyframes lanternX20 {
+  50% {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX21 {
+  position: absolute;
+  bottom: 0px;
+  left: 805px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX21;
+          animation-name: lanternX21;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY21 {
+  display: inline block;
+  width: 53px;
+  z-index: 53000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+@-webkit-keyframes lanternX21 {
+  50% {
+    -webkit-transform: translateX(19px);
+            transform: translateX(19px);
+  }
+}
+
+@keyframes lanternX21 {
+  50% {
+    -webkit-transform: translateX(19px);
+            transform: translateX(19px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX22 {
+  position: absolute;
+  bottom: 0px;
+  left: 841px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX22;
+          animation-name: lanternX22;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY22 {
+  display: inline block;
+  width: 47px;
+  z-index: 47000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+@-webkit-keyframes lanternX22 {
+  50% {
+    -webkit-transform: translateX(32px);
+            transform: translateX(32px);
+  }
+}
+
+@keyframes lanternX22 {
+  50% {
+    -webkit-transform: translateX(32px);
+            transform: translateX(32px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX23 {
+  position: absolute;
+  bottom: 0px;
+  left: 784px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX23;
+          animation-name: lanternX23;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY23 {
+  display: inline block;
+  width: 33px;
+  z-index: 33000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+@-webkit-keyframes lanternX23 {
+  50% {
+    -webkit-transform: translateX(41px);
+            transform: translateX(41px);
+  }
+}
+
+@keyframes lanternX23 {
+  50% {
+    -webkit-transform: translateX(41px);
+            transform: translateX(41px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX24 {
+  position: absolute;
+  bottom: 0px;
+  left: 647px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX24;
+          animation-name: lanternX24;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY24 {
+  display: inline block;
+  width: 66px;
+  z-index: 66000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+@-webkit-keyframes lanternX24 {
+  50% {
+    -webkit-transform: translateX(39px);
+            transform: translateX(39px);
+  }
+}
+
+@keyframes lanternX24 {
+  50% {
+    -webkit-transform: translateX(39px);
+            transform: translateX(39px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX25 {
+  position: absolute;
+  bottom: 0px;
+  left: 470px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX25;
+          animation-name: lanternX25;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY25 {
+  display: inline block;
+  width: 66px;
+  z-index: 66000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+@-webkit-keyframes lanternX25 {
+  50% {
+    -webkit-transform: translateX(21px);
+            transform: translateX(21px);
+  }
+}
+
+@keyframes lanternX25 {
+  50% {
+    -webkit-transform: translateX(21px);
+            transform: translateX(21px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX26 {
+  position: absolute;
+  bottom: 0px;
+  left: 203px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX26;
+          animation-name: lanternX26;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY26 {
+  display: inline block;
+  width: 63px;
+  z-index: 63000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@-webkit-keyframes lanternX26 {
+  50% {
+    -webkit-transform: translateX(51px);
+            transform: translateX(51px);
+  }
+}
+
+@keyframes lanternX26 {
+  50% {
+    -webkit-transform: translateX(51px);
+            transform: translateX(51px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX27 {
+  position: absolute;
+  bottom: 0px;
+  left: 300px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX27;
+          animation-name: lanternX27;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY27 {
+  display: inline block;
+  width: 34px;
+  z-index: 34000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@-webkit-keyframes lanternX27 {
+  50% {
+    -webkit-transform: translateX(23px);
+            transform: translateX(23px);
+  }
+}
+
+@keyframes lanternX27 {
+  50% {
+    -webkit-transform: translateX(23px);
+            transform: translateX(23px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX28 {
+  position: absolute;
+  bottom: 0px;
+  left: 11px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX28;
+          animation-name: lanternX28;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY28 {
+  display: inline block;
+  width: 56px;
+  z-index: 56000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+@-webkit-keyframes lanternX28 {
+  50% {
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
+  }
+}
+
+@keyframes lanternX28 {
+  50% {
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX29 {
+  position: absolute;
+  bottom: 0px;
+  left: 8px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX29;
+          animation-name: lanternX29;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY29 {
+  display: inline block;
+  width: 70px;
+  z-index: 70000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+@-webkit-keyframes lanternX29 {
+  50% {
+    -webkit-transform: translateX(18px);
+            transform: translateX(18px);
+  }
+}
+
+@keyframes lanternX29 {
+  50% {
+    -webkit-transform: translateX(18px);
+            transform: translateX(18px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+
+.lanternX30 {
+  position: absolute;
+  bottom: 0px;
+  left: 669px;
+  margin-left: 25%;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-animation-name: lanternX30;
+          animation-name: lanternX30;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.lanternY30 {
+  display: inline block;
+  width: 56px;
+  z-index: 56000;
+  -webkit-animation-name: lanternY;
+          animation-name: lanternY;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+@-webkit-keyframes lanternX30 {
+  50% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+}
+
+@keyframes lanternX30 {
+  50% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+}
+
+@keyframes lanternY {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+  }
+}
+/*# sourceMappingURL=dever-fly.css.map */

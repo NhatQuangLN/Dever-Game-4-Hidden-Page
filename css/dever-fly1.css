@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ece8fc;
+}
+.pill {
+    position: relative;
+    width: 160px;
+    height: 335px;
+    background: linear-gradient(to bottom, #312952 0%, #5a4a94 35%, #7b6bc6 100%);
+    border-radius: 100px;
+    overflow: hidden;
+}
+.lanternHills {
+    position: absolute;
+    bottom: -1px;
+    width: 225px;
+    left: -25px;
+}
+.star {
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+}

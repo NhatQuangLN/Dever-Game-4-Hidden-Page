@@ -1,0 +1,73 @@
+// $background: #ece8fc;
+// $white: white;
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // min-height:100vh;
+  // background: $background; 
+  // height: 100vh;
+}
+
+
+
+
+.lanternHills {
+  position: absolute;
+  bottom: 0;
+  width: 500px;
+  left: 0px;
+}
+
+
+
+
+
+@for $i from 1 through 30{
+  $randomNum: random(50) + 30;
+  $size: $randomNum + px;
+  
+  .lanternX#{$i} {
+    position: absolute;
+    bottom: 0px;
+    left: random(900) + px;
+    margin-left: 25%;
+    transform: translateX(0);
+    animation-name: lanternX#{$i};
+    animation-duration: random(5) + 5 + s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  .lanternY#{$i} {
+    display: inline block;
+    width: $size;
+    z-index: $randomNum * 1000;
+    animation-name: lanternY;
+    animation-duration: random(5) + 2 + s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0);
+    animation-delay: random(5) + 1 + s;
+  }
+  
+  
+  @keyframes lanternX#{$i} {
+    50% { transform: translateX(random(75) + px) }
+  }
+  
+  @keyframes lanternY {
+    0% {
+			transform: translateY(0);
+		}
+		50% {
+			transform: translateY(-200px);
+		}
+		100% {
+			transform: translateY(-800px);
+		}
+  }
+}
